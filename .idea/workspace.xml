@@ -20,28 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c2dc57-2e80-4bd8-ae31-dca41c2a9966" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/pages/login/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.bundle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/pages/custom/login/login-general.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/pages/widgets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/scripts.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/media/user/empresario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/custom/prismjs/prismjs.bundle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/custom/prismjs/prismjs.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/global/plugins.bundle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/global/plugins.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/qualitative-research.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/encuesta.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/includes/config.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/includes/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/includes/header-mobile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/includes/scrolltop.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/includes/user-panel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/pages/wizard/wizard-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/pages/custom/wizard/wizard-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/modals/bienvenida-cuestionario.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/encuesta.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/encuesta.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,18 +157,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/media/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/js/pages/custom/wizard" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\AproreEncuesta\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\AproreEncuesta\public\assets\js\pages\custom\wizard" />
+      <recent name="C:\xampp\htdocs\AproreEncuesta\public\assets\css\pages\wizard" />
       <recent name="C:\xampp\htdocs\AproreEncuesta\public\assets\media\user" />
       <recent name="C:\xampp\htdocs\AproreEncuesta\public" />
       <recent name="C:\xampp\htdocs\AproreEncuesta\public\assets\js\pages\custom\login" />
-      <recent name="C:\xampp\htdocs\AproreEncuesta\public\assets\css\pages\login" />
-      <recent name="C:\xampp\htdocs\AproreEncuesta\public\assets\js\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,8 +189,18 @@
       <option name="presentableId" value="Default" />
       <updated>1607196341639</updated>
       <workItem from="1607196343266" duration="810000" />
-      <workItem from="1607201029263" duration="8682000" />
+      <workItem from="1607201029263" duration="21987000" />
+      <workItem from="1607277921661" duration="3578000" />
+      <workItem from="1607310498546" duration="974000" />
     </task>
+    <task id="LOCAL-00001" summary="Login, plantilla implementada">
+      <created>1607211410168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607211410168</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +216,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login, plantilla implementada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login, plantilla implementada" />
   </component>
   <component name="WindowStateProjectService">
     <state x="723" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607203815616">
@@ -232,5 +235,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="784" y="460" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1607196384315" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607211413902">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607211413902" />
+    <state x="1098" y="152" width="657" height="684" key="find.popup" timestamp="1607278381218">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1098" y="152" width="657" height="684" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607278381218" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1607225075890">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607225075890" />
   </component>
 </project>

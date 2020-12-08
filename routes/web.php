@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NormaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,9 @@ Route::get('/home', function () {
 Route::get('/', function () {
     return view('login');
 })->name('login');
+
+Route::get('/gracias', function () {
+    return view('enviar');
+})->name('gracias');
+
+Route::post('/formulario/enviar', [NormaController::class, 'enviar'])->name('enviar');

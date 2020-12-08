@@ -71,7 +71,7 @@ var KTWizard2 = function () {
 				}
 			}).then(function (result) {
 				if (result.value) {
-					_formEl.submit(); // Submit form
+                    document.getElementById("form_035").submit(); // Submit form
 				} else if (result.dismiss === 'cancel') {
 					Swal.fire({
 						text: "¡Tu formulario no ha sido enviado!",
@@ -345,7 +345,7 @@ var KTWizard2 = function () {
 			_formEl = KTUtil.getById('kt_form');
 
 			_initWizard();
-			_initValidation();
+			//_initValidation();
 		}
 	};
 }();

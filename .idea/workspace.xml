@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31c2dc57-2e80-4bd8-ae31-dca41c2a9966" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/enviar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/radioInline.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/radioInline.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/pages/custom/wizard/wizard-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/pages/custom/wizard/wizard-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/subheader.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/subheader.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/radio-inline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/radio-inline.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/encuesta.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/encuesta.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/includes/user-panel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/includes/user-panel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +195,8 @@
       <workItem from="1607277921661" duration="3578000" />
       <workItem from="1607310498546" duration="974000" />
       <workItem from="1607363870805" duration="2658000" />
+      <workItem from="1607402940908" duration="7525000" />
+      <workItem from="1607441033974" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Login, plantilla implementada">
       <created>1607211410168</created>
@@ -209,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607363970379</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V0.1.1 Servidor">
+      <created>1607403017129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607403017129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +240,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login, plantilla implementada" />
     <MESSAGE value="V0.1.0 del servidor" />
-    <option name="LAST_COMMIT_MESSAGE" value="V0.1.0 del servidor" />
+    <MESSAGE value="V0.1.1 Servidor" />
+    <option name="LAST_COMMIT_MESSAGE" value="V0.1.1 Servidor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="723" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607203815616">
@@ -245,17 +256,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="784" y="460" key="Github.CreateGistDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1607196384315" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607364003003">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1607406855857">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607364003003" />
-    <state x="1098" y="152" width="657" height="684" key="find.popup" timestamp="1607278381218">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1607406855857" />
+    <state x="1098" y="152" width="657" height="684" key="find.popup" timestamp="1607406822585">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1098" y="152" width="657" height="684" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607278381218" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1607225075890">
+    <state x="1098" y="152" width="657" height="684" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607406822585" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1607406108807">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607225075890" />
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607406108807" />
   </component>
 </project>

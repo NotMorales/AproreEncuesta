@@ -75,7 +75,7 @@
                             <div class="form-group">
                                 <div class="d-flex justify-content-between mt-n5">
                                     <label class="font-size-h6 font-weight-bolder text-dark pt-5">CURP</label>
-                                    <a href="javascript:;" class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5" id="kt_login_forgot">Olvide mi contraseña</a>
+                                    <!--<a href="javascript:;" class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5" id="kt_login_forgot">Olvide mi contraseña</a>-->
                                 </div>
                                 <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg" type="text" name="curp" autocomplete="off" />
                             </div>
@@ -96,28 +96,23 @@
                         <form class="form" novalidate="novalidate" id="kt_login_signup_form">
                             <!--begin::Title-->
                             <div class="pb-13 pt-lg-0 pt-5">
-                                <h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Sign Up</h3>
-                                <p class="text-muted font-weight-bold font-size-h4">Enter your details to create your account</p>
+                                <h3 class="font-weight-bolder text-dark font-size-h4 font-size-h1-lg">Regístrate</h3>
+                                <p class="text-muted font-weight-bold font-size-h4">Ingrese sus datos para crear su cuenta</p>
                             </div>
                             <!--end::Title-->
                             <!--begin::Form group-->
                             <div class="form-group">
-                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Fullname" name="fullname" autocomplete="off" />
+                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Fullname" name="Nombre" autocomplete="off" />
                             </div>
                             <!--end::Form group-->
                             <!--begin::Form group-->
                             <div class="form-group">
-                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="email" placeholder="Email" name="email" autocomplete="off" />
+                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="email" placeholder="Email" name="Correo" autocomplete="off" />
                             </div>
                             <!--end::Form group-->
                             <!--begin::Form group-->
                             <div class="form-group">
-                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="password" placeholder="Password" name="password" autocomplete="off" />
-                            </div>
-                            <!--end::Form group-->
-                            <!--begin::Form group-->
-                            <div class="form-group">
-                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="password" placeholder="Confirm password" name="cpassword" autocomplete="off" />
+                                <input class="form-control form-control-solid h-auto py-6 px-6 rounded-lg font-size-h6" type="text" placeholder="Password" name="CURP" autocomplete="off" />
                             </div>
                             <!--end::Form group-->
                             <!--begin::Form group-->
@@ -125,15 +120,16 @@
                                 <label class="checkbox mb-0">
                                     <input type="checkbox" name="agree" />
                                     <span></span>
-                                    <div class="ml-2">I Agree the
-                                        <a href="#">terms and conditions</a>.</div>
+                                    <div class="ml-2">Estoy de acuerdo con los
+                                        <a href="#">términos y Condiciones.</a>.</div>
                                 </label>
                             </div>
                             <!--end::Form group-->
                             <!--begin::Form group-->
                             <div class="form-group d-flex flex-wrap pb-lg-0 pb-3">
-                                <button type="button" id="kt_login_signup_submit" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-4">Submit</button>
-                                <button type="button" id="kt_login_signup_cancel" class="btn btn-light-primary font-weight-bolder font-size-h6 px-8 py-4 my-3">Cancel</button>
+                                <a href="{{ route('index') }}" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-4">Registrarme</a>
+                                <!--<button type="button" id="kt_login_signup_submit" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-4"></button>-->
+                                <button type="button" id="kt_login_signup_cancel" class="btn btn-light-primary font-weight-bolder font-size-h6 px-8 py-4 my-3">Cancelar</button>
                             </div>
                             <!--end::Form group-->
                         </form>

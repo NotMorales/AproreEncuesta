@@ -101,8 +101,8 @@ class NormaController extends Controller
             'pre_70'            => $request['pregunta_70'],
             'pre_71'            => $request['pregunta_71'],
             'pre_72'            => $request['pregunta_72'],
-            'con_01'            => $request['resp_com2'],
-            'con_02'            => $request['resp_com'],
+            'con_01'            => $request['resp_com'],
+            'con_02'            => $request['resp_com2'],
         ]);
         return redirect()->route('gracias');
     }

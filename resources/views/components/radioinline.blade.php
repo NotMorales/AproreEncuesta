@@ -26,5 +26,5 @@
     </label>
 </div>
 @error("{$slot}")
-    <div class="invalid-feedback">Esta pregunta es obligatoria.</div>
+<div class="invalid-feedback">Esta pregunta es obligatoria.</div>
 @enderror
